@@ -11,7 +11,7 @@ class PostsController < ApplicationController
     Post.create(content: params[:content])
   end
 
-  def destroy
+  def show
   end
 
 end
